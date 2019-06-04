@@ -172,7 +172,7 @@ variable "worker" {
 
 variable "icppassword" {
   description = "Password for the initial admin user in ICP; blank to generate"
-  default     = ""
+  default     = "admin"
 }
 
 variable "icp_inception_image" {
